@@ -3,8 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>ContactForm</title>
   </head>
-  <body></body>
+  <body>
+    <form action="">
+      <section>
+        <div>
+          <h3>Name<span class="required">*</span></h3>
+          <label for="text"></label>
+          <input
+            type="text"
+            name=""
+            id="text"
+            placeholder="Vorname"
+            required
+            class="formfield" />
+          <label for="text"></label>
+          <input
+            type="text"
+            name=""
+            id="text"
+            placeholder="Nachname"
+            required
+            class="formfield" />
+        </div>
+        <div>
+          <h3>Email<span class="required">*</span></h3>
+          <div>
+            <label for="mail"></label>
+            <input type="mail" id="mail" required class="formfield2" />
+          </div>
+        </div>
+        <div>
+          <h3>Thema</h3>
+          <div>
+            <select name="thema" id="thema" class="formfield2">
+              <option value="">Thema</option>
+              <option value="">General</option>
+              <option value="">Advertise</option>
+              <option value="">Partnership</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <h3>Nachricht<span class="required">*</span></h3>
+          <div>
+            <textarea
+              name="textarea"
+              id=""
+              cols="50"
+              rows="10"
+              placeholder=""
+              required
+              class="formfield3">
+            </textarea>
+          </div>
+        </div>
+        <input
+          type="submit"
+          value="Submit"
+          onsubmit="return false"
+          class="btn-submit" />
+      </section>
+    </form>
+  </body>
 </html>

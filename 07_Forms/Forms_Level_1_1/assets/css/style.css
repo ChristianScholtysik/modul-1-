@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 62%;
+  margin-top: 4rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.formfield {
+  height: 3rem;
+  width: 49%;
+  border: solid rgb(195, 195, 195) 1px;
+  border-radius: 3px;
+}
+
+.formfield2 {
+  height: 3rem;
+  width: 100%;
+  border: solid rgb(195, 195, 195) 1px;
+  border-radius: 3px;
+}
+
+.formfield3 {
+  width: 100%;
+  border: solid rgb(195, 195, 195) 1px;
+  border-radius: 3px;
+}
+
+.btn-submit {
+  height: 4rem;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(39, 151, 193);
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.required {
+  font-size: 1.5rem;
+  color: red;
+}
