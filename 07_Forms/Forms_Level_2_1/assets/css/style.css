@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 62%;
+  margin-top: 4rem;
+}
+
+.header-div {
+  background-color: #43d1af;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+
+  padding: 1.5rem;
+}
+.main-div {
+  background-color: rgb(238, 238, 238);
+
+  padding: 1.5rem;
+}
+
+.input-adress {
+  display: inline-block;
+  width: 93%;
+}
+.input-field {
+  margin: 1.8rem;
+  padding: 1.5rem;
+  border: 1px solid rgb(196, 196, 196);
+}
+.btn-submit {
+  display: inline-block;
+  width: 93%;
+  margin: 1.8rem;
+  padding: 1.5rem;
+  color: white;
+  background-color: #43d1af;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.btn-submit:hover {
+  background-color: #2ebc99;
+}
