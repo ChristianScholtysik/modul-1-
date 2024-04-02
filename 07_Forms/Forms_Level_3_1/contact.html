@@ -27,14 +27,38 @@
                   id="text"
                   placeholder="Your Full Name" />
 
-                <label for="text">Adress</label>
+                <label for="text">Address</label>
                 <input type="text" name="" id="text" placeholder="Adress" />
               </div>
 
               <div class="list-item">Email & Phone</div>
+              <div class="input-field">
+                <label for="text">Email Address</label>
+                <input type="text" name="" id="text" />
+
+                <label for="text">Phone Number</label>
+                <input type="text" name="" id="text" />
+              </div>
               <div class="list-item">Passwords</div>
+              <div class="input-field">
+                <label for="text">Password</label>
+                <input type="text" name="" id="text" />
+
+                <label for="text">Confirm Password</label>
+                <input type="text" name="" id="text" />
+              </div>
             </div>
           </div>
+        </section>
+        <section class="submit-sec">
+          <input
+            type="submit"
+            value="Senden"
+            onsubmit="return false"
+            class="btn-submit" />
+
+          <input type="checkbox" name="checkboxAgb" id="checkboxAgb" />
+          <label for="checkboxAgb">You agree to our Term and Policy</label>
         </section>
       </fieldset>
     </form>

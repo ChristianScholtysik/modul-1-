@@ -5,9 +5,10 @@
 }
 
 fieldset {
-  width: 50%;
+  width: 30%;
   height: 100%;
   border-radius: 5px;
+  margin-left: 20rem;
 }
 
 .header-div {
@@ -29,10 +30,10 @@ fieldset {
   font-size: 1.5rem;
   margin: 10px;
 }
-
+/* 
 div.list {
   counter-reset: list-number;
-}
+
 div.list div:before {
   counter-increment: list-number;
   content: counter(list-number);
@@ -48,13 +49,33 @@ div.list div:before {
   background-color: rgb(42, 141, 180);
   border-radius: 50%;
   color: #fff;
-}
+} */
 
 .input-field {
+  display: flex;
+
+  align-items: normal;
+  justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 1.5rem;
   background-color: rgb(237, 237, 237);
   margin: 2rem;
   border-radius: 10px;
   color: grey;
+  border: solid 2px red;
+}
+.btn-submit {
+  font-size: 1rem;
+  background-color: rgb(42, 141, 180);
+  color: white;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  border: solid 2px red;
+}
+
+.submit-sec {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid green;
 }
