@@ -50,6 +50,11 @@ h3 {
   border-radius: 2px;
 }
 
+.btn-submit:hover {
+  color: white;
+  background-color: blue;
+}
+
 .required {
   font-size: 1.5rem;
   color: red;
