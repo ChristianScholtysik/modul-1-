@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <!-- wir brauchen form wenn wir ein formular benötigen  -->
+
+    <!-- Attribute sind Eigenschaften von einem Element, welche innerhalb des Tags geschrieben werden -->
+    <form>
+      <fieldset>
+        <legend>Form</legend>
+        <section>
+          <!-- input text -->
+          <div>
+            <label for="text">Gib einen Text ein</label>
+            <input
+              type="text"
+              name=""
+              id="text"
+              placeholder="Gib einen Text ein" />
+          </div>
+          <!-- ibput number -->
+          <div>
+            <label for="number">Gib eine Zahl ein</label>
+            <input type="number" id="number" placeholder="Gib eine Zahl ein" />
+          </div>
+          <!-- input mail -->
+          <div>
+            <label for="mail">Gib eine Mail ein</label>
+            <input type="mail" id="mail" placeholder="Gib eine Mail ein" />
+          </div>
+          <!-- input password -->
+          <div>
+            <label for="current-password">Password</label>
+            <input
+              type="current-password"
+              id="current-password"
+              placeholder="Gib ein Password ein" />
+          </div>
+        </section>
+        <hr />
+        <!-- input radio -->
+        <section>
+          <h2>kommst du mit mir in den Urlaub?</h2>
+          <div>
+            <input type="radio" name="Auswahl" id="radioJa" />
+            <label for="radioJA">Ja</label>
+          </div>
+          <div>
+            <input type="radio" name="Auswahl" id="radioNein" />
+            <label for="radioNein">Nein</label>
+          </div>
+          <div>
+            <input type="radio" name="Auswahl" id="radioVielleicht" />
+            <label for="radioVielleicht">Vielleicht</label>
+          </div>
+        </section>
+        <hr />
+        <!-- input checkbox -->
+        <section>
+          <h3>Ich packe meinen Koffer....</h3>
+          <div>
+            <input type="checkbox" name="checkboxHose" id="checkboxHose" />
+            <label for="checkboxHose">Hose</label>
+          </div>
+          <div>
+            <input type="checkbox" name="checkboxShirt" id="checkboxShirt" />
+            <label for="checkboxShirt">Shirt</label>
+          </div>
+          <div>
+            <input type="checkbox" name="checkboxShoe" id="checkboxShoe" />
+            <label for="checkboxShoe">Schuhe</label>
+          </div>
+        </section>
+      </fieldset>
+    </form>
+  </body>
+</html>
