@@ -77,6 +77,60 @@
             <label for="checkboxShoe">Schuhe</label>
           </div>
         </section>
+        <hr />
+        <!-- input select ->option -->
+        <h3>Reiseziele</h3>
+        <select name="reise" id="reise">
+          <option value="">Wähle aus</option>
+          <option value="HR">Kroatien</option>
+          <option value="LK">Sri Lanka</option>
+          <option value="MG">Madagaskar</option>
+          <option value="MX">Mexiko</option>
+        </select>
+        <hr />
+        <!-- date -->
+        <section>
+          <h3>Datum</h3>
+          <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" />
+          </div>
+        </section>
+
+        <hr />
+        <!-- input range -->
+        <h3>Range</h3>
+        <section>
+          <div>
+            <label for="gefühle">Auf einer Skala von 1 bis 10</label>
+            <input type="range" name="gefühle" id="gefühle" min="1" max="10" />
+          </div>
+        </section>
+        <hr />
+        <!-- ibput text area -->
+
+        <h3>textarea</h3>
+        <textarea
+          name=""
+          id=""
+          cols="50"
+          rows="10"
+          placeholder="Erzähl mit deine Geschichte"></textarea>
+
+        <hr />
+
+        <!-- input file -->
+        <h3>File</h3>
+        <label for="file">Zeig mit dein Lieblingsbild</label>
+        <input type="file" name="" id="file" />
+
+        <hr />
+
+        <!-- input button und submit -->
+        <h3>Button</h3>
+        <input type="button" value="reset" />
+        <!-- WICHTIG: Ohne Input submit funktioniert die Form nicht -->
+        <input type="submit" value="send" onsubmit="return false" />
       </fieldset>
     </form>
   </body>
