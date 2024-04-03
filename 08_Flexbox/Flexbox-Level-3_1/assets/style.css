@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), url(./fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+header {
+  height: 76px;
+  border-bottom: solid 1px #dbdbdb;
+}
+.logo {
+  color: #666;
+  font-size: 2em;
+}
+.logo:hover {
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  height: 76px;
+  font-size: 1.2em;
+  list-style: none;
+
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+  color: #337ab7;
+}
+/* section 1 */
+
+.section-img {
+  height: 100vh;
+  background-image: url(./img/div.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 5em;
+  color: white;
+  font-weight: 200;
+}
+
+p {
+  font-size: 0.9em;
+  color: white;
+  font-weight: 200;
+}
+
+.btn-readMore {
+  color: white;
+  font-size: 0.9rem;
+  background-color: #745cf9;
+  padding: 1.5em 4.5em;
+  line-height: 24px;
+  min-width: 200px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  text-transform: uppercase;
+}
+
+.btn-download {
+  color: white;
+  font-size: 0.9rem;
+  background-color: transparent;
+  padding: 1.5em 4.5em;
+  border: solid 1px white;
+  margin-left: 1.1em;
+  text-transform: uppercase;
+  line-height: 24px;
+  min-width: 200px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+
+.btn-readMore:hover {
+  color: white;
+  background-color: #624ed3;
+}
+
+.btn-download:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* section2 */
+
+.sec2-all {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sec2-left {
+  width: 40%;
+}
+
+.sec2-right {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.sec2-right p {
+  color: #8c979e;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 400;
+  color: 8C979E;
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding: 0;
+}
