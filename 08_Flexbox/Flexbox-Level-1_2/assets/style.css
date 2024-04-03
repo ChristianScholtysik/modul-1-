@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(./img/louie-martinez-IocJwyqRv3M-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+h3 {
+  color: white;
+  font-size: 2em;
+}
+
+ul {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 1.1em;
+
+  list-style: none;
+  color: white;
+}
