@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: none;
+}
+
+.burger-wrapper {
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.burger {
+  height: 5px;
+  width: 30px;
+  background-color: black;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.hero {
+  background-color: rgba(70, 211, 70, 0.354);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infos,
+.infos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infos div {
+  padding: 0 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*! Media Queries */
+/* Handy ab 576px */
+/* Tablet ab 768px */
+/* Desktop ab 992px */
+
+/* @media screen{styles für alle Geräte mit Bildschirm} */
+/* @media only screen{styles für alle Geräte mit Bildschirm jedoch ohne ältere Browser} */
+
+/* TABLET */
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-color: rgba(176, 60, 176, 0.385);
+    height: 800px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+  .burger-wrapper {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20 px 30 px;
+  }
+
+  nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .hero {
+    background-color: rgba(247, 175, 41, 0.504);
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    height: 100vh;
+  }
+  .hero img {
+    width: 40%;
+  }
+  .infos {
+    flex-direction: row;
+    height: 50vh;
+  }
+}
