@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Forms-Uebung-Level-3-1</title>
+</head>
+<body>
+    <section>
+        <hgroup>
+        <h1>Sign Up Now!</h1>
+        <p>Sign up and let us know what you think of the site!</p>
+        </hgroup>
+        <form>
+                <h2>First Name & Address</h2>
+                <div class="name-address-wrapper">
+                    <label for="name">Your full Name</label>
+                    <input type="text" id="name" required>
+                    <label for="address">Address</label>
+                    <input type="text" id="address">
+                </div>
+                <h2>E-Mail & Phone</h2>
+                <div class="email-phone-wrapper">
+                    <label for="email">E-Mail Address</label>
+                    <input type="email" id="email">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone">
+                </div>
+                <h2>Password</h2>
+                <div class="password-pw-conf-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                    <label for="conf-pw">Confirm Password</label>
+                    <input type="password" id="conf-pw">
+                </div>
+            <input type="checkbox" name="checkbox" id="checkbox-terms">
+            <label for="checkbox-terms" id="test">You agree to our Terms and Policy</label>
+            <input type="submit" value="Send">
+        </form>
+    
+</body>
+</html>
