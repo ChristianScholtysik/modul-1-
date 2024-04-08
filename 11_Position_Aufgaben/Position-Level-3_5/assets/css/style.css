@@ -148,3 +148,46 @@ h3 {
 #Bild4:hover {
   border-radius: 25% 10px;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer input,
+footer button {
+  font-size: 1.6rem;
+}
+
+footer button {
+  background-color: rgb(112, 141, 56);
+  color: white;
+  padding: 5px 75px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+footer input {
+  border-radius: 15px;
+  padding: 5px 55px;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+
+footer img {
+  height: 8vh;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin: 35px 0;
+}
