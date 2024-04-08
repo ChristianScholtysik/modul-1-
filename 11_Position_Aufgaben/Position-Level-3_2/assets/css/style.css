@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+main div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f62b54;
+  height: 12em;
+  width: 12em;
+  padding: 25px;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 20px;
+}
+
+main div h1 {
+  font-size: 2em;
+}
+
+button {
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  font-size: 0.8em;
+  color: #f62b54;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  top: 5%;
+  right: 5%;
+}
