@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: aqua;
+}
+
+/* nach position kommt immer eine oder mehrere Eigenschaften wir right, left, top, bottom */
+
+header nav {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: aqua;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+
+#first_section {
+  height: 100vh;
+  background-color: brown;
+}
+
+#second_section {
+  height: 100vh;
+  background-color: chocolate;
+}
+
+#third_section {
+  height: 100vh;
+  position: relative;
+  background-color: pink;
+}
+
+.wrapper-sticky {
+  width: 100px;
+  height: 50px;
+  background-color: chartreuse;
+  position: sticky;
+  top: 20px;
+}
+
+.box1 {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
+.box2 {
+  background-color: rgb(255, 0, 0);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+}
