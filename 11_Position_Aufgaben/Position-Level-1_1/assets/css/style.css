@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Poppin";
+  src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+main {
+  background-image: url(../img/christopher-burns-qHD5SJwj9gM-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.everest {
+  color: white;
+  font-family: "Poppin";
+  font-size: 5rem;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+}
+
+.everest-height {
+  color: white;
+  font-family: "Poppin";
+  font-size: 3rem;
+  position: absolute;
+  right: 25%;
+  top: 35%;
+}
