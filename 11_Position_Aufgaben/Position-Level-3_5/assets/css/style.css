@@ -37,10 +37,6 @@ main nav ul li {
   margin: 10px 65px;
 }
 
-nav li:hover {
-  color: black;
-}
-
 .ride {
   position: relative;
   height: 100vh;
@@ -49,7 +45,9 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
+a:hover {
+  color: black;
+}
 main h2 {
   font-size: 2rem;
   color: white;
