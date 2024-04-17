@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div:nth-child(odd) {
+  background-color: #00ecaa;
+}
+
+div:nth-child(even) {
+  background-color: #5d3ede;
+}
+
+div {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+/* colums (Spalten) -horizontal*/
+/* row (Zeilen)  -vertikal */
+
+.grid-parent {
+  display: grid;
+  height: 100vh;
+  /* ! Columns */
+  /* Baue dir als erstes die basis der columns auf */
+  /* 1fr = 1 fraction */
+
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+
+  /* grid-template-columns: 320px 50px 2fr; */
+
+  /* !Rows */
+  /* grid-template-rows: 25% 25% 25% 25%; */
+  /* grid-template-rows: repeat(5, 1fr); */
+  /* grid-template-rows: 200px 1fr 100px; */
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+body {
+  display: grid;
+  grid-template-columns: 90vw 10vw;
+  grid-template-rows: 50px 42vh 42vh 15vh;
+}
+
+/* ! Bitte vergebt niemals den Kind elementen eine feste Höhe und Breite */
+/* lange Variante */
+/* 
+header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+} */
+
+/* kurze Variante */
+/* 
+header {
+  grid-column: 1 / 3;
+  grid-row: 1/2;
+  background-color: aqua;
+}
+
+main {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background-color: blueviolet;
+}
+
+aside {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  background-color: brown;
+}
+
+footer {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: chartreuse;
+} */ */
