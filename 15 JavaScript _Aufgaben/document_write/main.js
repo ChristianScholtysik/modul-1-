@@ -10,5 +10,6 @@ document.write(n);
 document.write(x + "World");
 
 let meinString = "Ich bin Erste(r)";
-let deinString = "Ich komme auf Platz zwei";
-document.write(meinString + deinString);
+
+document.write(meinString + "Ich komme auf Platz zwei");
+console.log(meinString + "Ich komme auf Platz zwei");
