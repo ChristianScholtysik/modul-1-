@@ -68,4 +68,58 @@ const fiftthChild = document.querySelector("section:nth-of-type(2) p");
 console.log(fiftthChild);
 console.log(fiftthChild.innerHTML);
 
+// += hilft uns dass der inhalt nicht überschrieben wird
 fiftthChild.innerHTML += " was geht?";
+
+const sixthChild = document.querySelector("#listChild");
+
+sixthChild.innerHTML = "moin";
+sixthChild.innerHTML += " Leute";
+
+sixthChild.style.color = "red";
+sixthChild.style.backgroundColor = "pink";
+sixthChild.style.listStyle = "none";
+
+console.log("%c Function", "color:green; background: white");
+
+//! Function
+
+// => {} ist ein scope
+function sayHello() {
+  //   console.log("Hallo Farid");
+  //   console.log("Hallo Pius");
+  const headLine = document.querySelector("#seventhChild");
+  headLine.innerHTML = " ich bin eine HeadLine";
+}
+
+sayHello();
+
+function logIn(firstName, email) {
+  console.log(`Hallo user ${email}, du bist eingeloggt ${firstName}`);
+}
+
+logIn("Anna", "anna@test.de");
+
+logIn("Christian", "christian@test.de");
+
+function addieren(zahl1, zahl2) {
+  const summe = zahl1 + zahl2;
+  console.log(summe);
+
+  const ergebnis = document.querySelector("#eighthChild");
+  ergebnis.innerHTML = summe;
+}
+
+// addieren(2, 8);
+addieren(530, 70);
+const unserLetztesKind = document.querySelector("h6");
+function halloName() {
+  unserLetztesKind.innerHTML = "Hello Lisa, ich hoffe es geht Dir gut";
+  unserLetztesKind.style.color = "red";
+  unserLetztesKind.style.fontSize = "2rem";
+}
+
+function byeLisa() {
+  unserLetztesKind.innerHTML = "Tschüß";
+  unserLetztesKind.style.color = "blue";
+}
