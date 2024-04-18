@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+#one {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: rgb(255, 53, 113);
+  background: linear-gradient(45deg, rgba(255, 53, 113, 1) 30%, #00d4ff 100%);
+}
+
+#two {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #57ff35;
+  background: linear-gradient(
+    45deg,
+    rgba(87, 255, 53, 1) 30%,
+    rgb(250, 0, 196) 100%
+  );
+}
+
+#three {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: rgb(232, 53, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(232, 53, 255, 1) 30%,
+    rgba(254, 255, 0, 1) 100%
+  );
+}
+
+#four {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: rgb(53, 254, 255);
+  background: linear-gradient(
+    45deg,
+    rgba(53, 254, 255, 1) 30%,
+    rgba(255, 59, 0, 1) 100%
+  );
+}
