@@ -21,3 +21,12 @@ function four() {
   headLine.style.color = "rgba(53, 254, 255, 1)";
   body.style.background = " rgba(255, 59, 0, 1)";
 }
+
+function pizza(wurst, gemüse, käse) {
+  console.log(
+    `Ich möchte eine Pizza haben mit ${wurst}, ${gemüse} und obendrauf soll noch ${käse} gestreut sein`
+  );
+}
+
+pizza("Salami", "Paprika", "Feta");
+pizza("Mortadella", "Zucchini", "Cheddar");
