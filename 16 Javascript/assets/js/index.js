@@ -57,3 +57,15 @@ console.log(firstChild.innerHTML);
 const secondChild = document.getElementById("mein_zweites_Kind");
 
 secondChild.innerHTML = "lisa fragt egal was";
+
+const thirdChild = document.querySelector(".mein_drittes_Kind");
+console.log(thirdChild);
+
+const fourthChild = document.querySelector("#mein_viertes_Kind");
+console.log(fourthChild);
+
+const fiftthChild = document.querySelector("section:nth-of-type(2) p");
+console.log(fiftthChild);
+console.log(fiftthChild.innerHTML);
+
+fiftthChild.innerHTML += " was geht?";
