@@ -41,9 +41,20 @@
       <label for="checkbox">Are you happy?</label>
       <input type="checkbox" name="" id="checkbox" class="checkbox" />
       <label for="bday">Bday</label>
-      <input type="date" name="" id="bday" class="" bday />
+      <input type="date" name="" id="bday" class="bday" bday />
       <input type="submit" value="Senden" />
       <p class="form-output"></p>
+    </form>
+
+    <h2>Login</h2>
+
+    <form onsubmit="checkUserData(); return false">
+      <label for="username">UserName</label>
+      <input type="text" name="" id="username" />
+      <label for="password">Passwort</label>
+      <input type="password" name="" id="password" />
+      <input type="submit" value="Submit" />
+      <div id="login-feedback"></div>
     </form>
   </body>
   <script src="./assets/js/main.js"></script>
