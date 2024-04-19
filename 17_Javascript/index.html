@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>value, if/else</title>
+  </head>
+  <body>
+    <h1>Mini Rechner</h1>
+    <section class="counter">
+      <h3 class="output-calc">0</h3>
+      <button onclick="superFunc(+1)">+1</button>
+      <button onclick="superFunc(-1)">-1</button>
+      <button onclick="superFunc(+10)">+10</button>
+      <button onclick="superFunc(-10)">-10</button>
+      <button onclick="malZwei()">*2</button>
+      <button onclick="reset()">reset</button>
+    </section>
+
+    <button onclick="sayHi('Pius')">Hallo</button>
+    <div class="btn-output"></div>
+
+    <h2>Value auslesen</h2>
+    <form onsubmit="getInputValue(); return false">
+      <!-- return false stellt das default verhalten von formularen aus, die seite wird nun nicht mehr neugeladen sobald das formualr submitted wird -->
+      <label for="name">Name</label>
+      <input type="text" name="" id="name" class="name" />
+      <label for="number">Age</label>
+      <input type="number" name="" id="number" class="number" />
+      <label for="range">Range</label>
+      <input
+        type="range"
+        name=""
+        id="range"
+        min="0"
+        max="50"
+        step="1"
+        value="25"
+        class="range" />
+      <label for="checkbox">Are you happy?</label>
+      <input type="checkbox" name="" id="checkbox" class="checkbox" />
+      <label for="bday">Bday</label>
+      <input type="date" name="" id="bday" class="" bday />
+      <input type="submit" value="Senden" />
+      <p class="form-output"></p>
+    </form>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
