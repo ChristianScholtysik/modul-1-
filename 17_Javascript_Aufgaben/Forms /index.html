@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h2>Forms-JS-Level-1_1</h2>
+    <form action="" onsubmit="doubleMe(); return false">
+      <input type="number" name="number" id="number" />
+      <input type="submit" value="Verdoppel mich" />
+      <p id="output-field"></p>
+    </form>
+
+    <h2>Forms-JS-Level-1_2</h2>
+    <form onsubmit="myAge(); return false">
+      <label for="number" id="jahr">Gib Dein Geburtsjahr ein</label>
+      <input type="number" name="jahr" id="jahr" />
+      <input type="submit" value="Berechne mein Alter" />
+    </form>
+    <p id="meinAlter"></p>
+  </body>
+  <script src="./assets/js/main.js"></script>
+</html>
