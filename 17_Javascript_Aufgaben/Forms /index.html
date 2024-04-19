@@ -15,11 +15,22 @@
 
     <h2>Forms-JS-Level-1_2</h2>
     <form onsubmit="myAge(); return false">
-      <label for="number" id="jahr">Gib Dein Geburtsjahr ein</label>
+      <label for="number" id="">Gib Dein Geburtsjahr ein</label>
       <input type="number" name="jahr" id="jahr" />
       <input type="submit" value="Berechne mein Alter" />
     </form>
     <p id="meinAlter"></p>
+
+    <h2>Forms-JS-Level-1_3</h2>
+
+    <form onsubmit="compareAge(); return false">
+      <label for="number">Alter 1</label>
+      <input type="number" name="number" id="age1" />
+      <label for="number">Alter 2</label>
+      <input type="number" name="number" id="age2" />
+      <input type="submit" value="Berechne" />
+    </form>
+    <p id="difference"></p>
   </body>
   <script src="./assets/js/main.js"></script>
 </html>
