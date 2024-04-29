@@ -1,0 +1,21 @@
+@mixin einGridTemplate {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+@mixin flexPasta {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin textStyle($font-size, $color, $bg-color) {
+  font-size: $font-size;
+  color: $color;
+  background-color: $bg-color;
+  // border: $border;
+}
+
+// @mixin borderStyle($brSize, $brStyle, $brColor) {
+//   border: variables.$brSize, variables.$brStyle, variables.$brColor;
+// }

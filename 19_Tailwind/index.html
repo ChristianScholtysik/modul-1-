@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontSize: { myFontSize: "7rem" },
+          },
+        },
+      };
+    </script>
+    <script></script>
+    <title>Tailwind Coffee</title>
+  </head>
+  <body>
+    <header class="h-screen">
+      <nav class="flex items-center justify-between p-5">
+        <a href="">
+          <img src="./assets/img/logo.png" alt="Logo" />
+        </a>
+        <div>
+          <a href="">Home</a>
+          <a href="">Menu</a>
+          <a href="">About Us</a>
+          <a href="">Contact Us</a>
+        </div>
+        <div>
+          <a href="">Sign in</a>
+          <a href="">Sign up</a>
+        </div>
+      </nav>
+      <section>
+        <h4>We’ve got your morning covered with</h4>
+        <h1 class="text-myFontSize font-[]">Coffee</h1>
+        <p>
+          It is best to start your day with a cup of coffee. Discover the best
+          flavours coffee you will ever have. We provide the best for our
+          customers.
+        </p>
+        <a href="">Order now</a>
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <article>
+          <h2>Discover the best coffee</h2>
+          <p>
+            Bean Scene is a coffee shop that provides you with quality coffee
+            that helps boost your productivity and helps build your mood. Having
+            a cup of coffee is good, but having a cup of real coffee is greater.
+            There is no doubt that you will enjoy this coffee more than others
+            you have ever tasted.
+          </p>
+          <a href="">Learn More</a>
+        </article>
+        <img src="./assets/img/tasse.png" alt="Coffee Mug" />
+      </section>
+
+      <section>
+        <img src="./assets/img/coffee_splash.png" alt="splash" />
+      </section>
+
+      <section>
+        <h2>Why are we different?</h2>
+        <p>We don’t just make your coffee, we make your day!</p>
+        <article>
+          <div>
+            <img src="./assets/img/icon1.png" alt="icon bean" />
+            <h3>Supreme Beans</h3>
+            <p>Beans that provide great taste</p>
+          </div>
+          <div>
+            <img src="./assets/img/icon2.png" alt="icon badge" />
+            <h3>High Quality</h3>
+            <p>We provide the highest quality</p>
+          </div>
+          <div>
+            <img src="./assets/img/icon3.png" alt="icon cup" />
+            <h3>Extraordinary</h3>
+            <p>Coffee like you have never tasted</p>
+          </div>
+          <div>
+            <img src="./assets/img/icon4.png" alt="icon value" />
+            <h3>Affordable Prices</h3>
+            <p>Our Coffee prices are easy to afford</p>
+          </div>
+        </article>
+        <p>Great ideas start with great coffee, Lets help you achieve that.</p>
+        <h3>Get started today.</h3>
+        <a href="">Join us</a>
+      </section>
+    </main>
+  </body>
+</html>

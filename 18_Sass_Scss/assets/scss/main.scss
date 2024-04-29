@@ -1,0 +1,64 @@
+@use "_variables" as variables;
+@use "_font" as font;
+@use "_mixin" as mixin;
+
+//Global
+* {
+  padding: variables.$padding-start;
+  margin: variables.$margin-start;
+  box-sizing: variables.$bx-sizing;
+  font-family: font.$fontRoboto;
+}
+//! ==> header h2 macht man nur im css
+
+header {
+  @include mixin.flexPasta;
+  h2 {
+    margin: variables.$main-margin;
+    color: variables.$main-color;
+    font-size: variables.$main-h3Size;
+  }
+  h3 {
+    color: variables.$main-scndColor;
+  }
+  p {
+    font-size: variables.$default-font-size;
+    max-width: variables.$max-width;
+    text-align: variables.$text-align;
+    margin: variables.$default-margin;
+  }
+}
+//Main
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: 5vh auto;
+}
+
+.imageGallery {
+  @include mixin.einGridTemplate;
+  figure {
+    width: 300px;
+    image {
+      border-radius: 30px;
+    }
+    figcaption {
+      h2 {
+        color: variables.$main-color;
+      }
+      a {
+        button {
+          @include mixin.textStyle(1rem, green, white);
+          //   @include mixin.borderStyle(mixin.$borderStyle);
+          width: 120px;
+          height: 35px;
+          &:hover {
+            color: yellow;
+            background-color: variables.$main-color;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

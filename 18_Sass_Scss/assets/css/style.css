@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+header h2 {
+  margin: 10vh 0 0 0;
+  color: rgb(206, 18, 165);
+  font-size: 2rem;
+}
+header h3 {
+  color: pink;
+}
+header p {
+  font-size: 1rem;
+  max-width: 50vw;
+  text-align: center;
+  margin: 2vh 0;
+}
+
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: 5vh auto;
+}
+
+.imageGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.imageGallery figure {
+  width: 300px;
+}
+.imageGallery figure image {
+  border-radius: 30px;
+}
+.imageGallery figure figcaption h2 {
+  color: rgb(206, 18, 165);
+}
+.imageGallery figure figcaption a button {
+  font-size: 1rem;
+  color: green;
+  background-color: white;
+  width: 120px;
+  height: 35px;
+}
+.imageGallery figure figcaption a button:hover {
+  color: yellow;
+  background-color: rgb(206, 18, 165);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
